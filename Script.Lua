@@ -58,4 +58,4 @@ end
 
 print("Took ", tick() - StartTime, " To Load <3")
 
-queue_on_teleport[[loadstring(game:HttpGet("https://github.com/1201for/V.G-Hub/blob/main/Extras/Functions"))()]]
+queue_on_teleport[[loadstring(game:HttpGet("https://raw.githubusercontent.com/Nooturno/Nooturno/main/Functions.lua"))()]]
