@@ -1,7 +1,7 @@
 repeat task.wait() until game:IsLoaded()
 -- Carregando script Global de forma segura
 local success, errorMessage = pcall(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-Hub/main/Extras/Global"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nooturno/Nooturno/main/Global.lua"))()
 end)
 if not success then
     warn("Erro ao carregar script Global: ", errorMessage)
