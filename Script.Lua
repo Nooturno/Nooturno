@@ -20,7 +20,7 @@ if Advertisement then
 end
 
 local StartTime = tick()
-local A = loadstring(game:HttpGet("https://raw.githubusercontent.com/Nooturno/Nooturno/main/V.G-Hub-Games-List.lua"))()
+local A = loadstring(game:HttpGet("https://raw.githubusercontent.com/Nooturno/Nooturno/refs/heads/main/Noot-Games-List.lua"))()
 
 local ScreenGui = Instance.new("ScreenGui")
 if syn and syn.protect_gui then
