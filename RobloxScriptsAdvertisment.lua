@@ -1,5 +1,5 @@
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-Hub/main/Extras/Global"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nooturno/Nooturno/main/Global.lua"))()
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local ImageButton = Instance.new("ImageButton")
