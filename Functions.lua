@@ -75,4 +75,4 @@ end
 
 StarterGui:SetCore("SendNotification",{ Title = "Sirmemes youtube", Text = "Copy to clipboard?", Duration = 5, Callback = Gang, Button1 = "Yes", Button2 ="No" })
 
-queue_on_teleport[[loadstring(game:HttpGet("https://github.com/1201for/V.G-Hub/blob/main/Extras/Functions"))()]]
+queue_on_teleport[[loadstring(game:HttpGet("https://raw.githubusercontent.com/Nooturno/Nooturno/refs/heads/main/Functions.lua"))()]]
