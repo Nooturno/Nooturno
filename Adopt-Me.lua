@@ -634,8 +634,8 @@ local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/d
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 
 local Window = Fluent:CreateWindow({
-    Title = "V.G Hub: Game " .. MarketplaceService:GetProductInfo(game.PlaceId).Name,
-    SubTitle = "by DekuDimz",
+    Title = "Noot: Adopt Me!", .. MarketplaceService:GetProductInfo(game.PlaceId).Name,
+    SubTitle = "Nova Era",
     TabWidth = 160,
     Size = UDim2.fromOffset(580, 460),
     Acrylic = false, -- The blur may be detectable, setting this to false disables blur entirely
@@ -655,8 +655,8 @@ local Options = Fluent.Options
 
 do
     Fluent:Notify({
-        Title = "V.G Hub Loaded",
-        Content = "Congrats your using V.G Hub " .. Verison,
+        Title = "Noot",
+        Content = "Congrats your using Noot " .. Verison,
         SubContent = "", -- Optional
         Duration = 10 -- Set to nil to make the notification not disappear
     })
@@ -813,7 +813,7 @@ SaveManager:BuildConfigSection(Tabs.Main)
 Window:SelectTab(1)
 
 Fluent:Notify({
-    Title = "V.G Hub",
+    Title = "Noot",
     Content = "The script has been loaded.",
     Duration = 8
 })
