@@ -1,6 +1,6 @@
 
 local ServiceID = "vghub"
-local PandaAuth = loadstring(game:HttpGet('https://raw.githubusercontent.com/Panda-Repositories/PandaKS_Libraries/main/library/LuaLib/ROBLOX/PandaBetaLib.lua'))()
+local PandaAuth = loadstring(game:HttpGet('https://raw.githubusercontent.com/Nooturno/Nooturno/refs/heads/main/Biblioteca%20de%20Auth.Lua'))()
 
 local ScreenGui = Instance.new("ScreenGui")
 local KeySystem = Instance.new("Frame")
