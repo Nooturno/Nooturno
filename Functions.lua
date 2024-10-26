@@ -1,14 +1,14 @@
 
 repeat task.wait() until game:IsLoaded()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-Hub/main/Extras/Global"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nooturno/Nooturno/main/Global.lua"))()
 if KeySystem then
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/Extras/Key'))()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Nooturno/Nooturno/main/Key.lua'))()
 end
 if Advertisement then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-Hub/main/Extras/RobloxScriptsAdvertisment"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Nooturno/Nooturno/main/RobloxScriptsAdvertisment.lua"))()
 end
 local StartTime = tick()
-local A = loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.G-Hub-Games-List"))()
+local A = loadstring(game:HttpGet("https://raw.githubusercontent.com/Nooturno/Nooturno/main/V.G-Hub-Games-List.lua"))()
 
 local ScreenGui = Instance.new("ScreenGui")
 if syn and syn.protect_gui then
